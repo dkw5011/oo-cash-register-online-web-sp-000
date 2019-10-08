@@ -15,7 +15,8 @@ class CashRegister
   end
   
   def last_transaction
-    
+    prices.last
+  end
   
   def add_item(title, price, quantity = 1)
     @prices << price
