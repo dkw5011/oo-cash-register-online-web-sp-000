@@ -15,7 +15,7 @@ class CashRegister
   end
   
   def last_transaction
-    prices.last
+    prices[-1]
   end
   
   def add_item(title, price, quantity = 1)
